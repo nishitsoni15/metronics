@@ -1,0 +1,237 @@
+.info {
+  background-color: #F3F6F8;
+}
+.info .container {
+  margin: 0 auto;
+  max-width: 1290px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 140px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.info .container .all-divs {
+  width: 33%;
+  height: 163px;
+  border-radius: 5%;
+  position: relative;
+  color: white;
+  padding: 2rem 2.25rem;
+  display: flex;
+  flex-direction: column;
+}
+.info .container .all-divs .all-h2s {
+  margin-top: 10px;
+}
+.info .container .all-divs .all-ps {
+  margin-top: 10px;
+}
+.info .container .all-divs.shopping-cart {
+  background-color: #F1416C;
+}
+.info .container .all-divs.appartment {
+  margin-left: 40px;
+  background-color: #009EF7;
+}
+.info .container .all-divs.sales-stats {
+  margin-left: 40px;
+  background-color: #50CD89;
+}
+.info .container .all-divs-2 {
+  height: 486px;
+  border-radius: 5%;
+  position: relative;
+  background-color: white;
+  margin-top: -20px;
+}
+.info .container .all-divs-2.sales-overview {
+  width: 33%;
+}
+.info .container .all-divs-2.sales-overview .sales-head-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+.info .container .all-divs-2.sales-overview .sales-head-div .overview-div p {
+  color: #A1A5BE;
+}
+.info .container .all-divs-2.sales-overview .sales-main-div {
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.info .container .all-divs-2.sales-overview .sales-main-div .inner-divs {
+  width: 50%;
+}
+.info .container .all-divs-2.sales-overview .sales-main-div .inner-divs .main-p {
+  font-size: 13px;
+  font-weight: 600;
+  color: #A1A5BE;
+}
+.info .container .all-divs-2.sales-overview .sales-main-div .inner-divs .second-p {
+  font-size: 20px;
+}
+.info .container .all-divs-2.sales-overview .sales-main-div .inner-divs.annual-tax {
+  margin-top: 30px;
+}
+.info .container .all-divs-2.sales-overview .sales-main-div .inner-divs.income {
+  margin-top: 30px;
+}
+.info .container .all-divs-2.sales-overview .sale-foot-div img {
+  width: 100%;
+  margin-top: 90px;
+}
+.info .container .all-divs-2.action-needed {
+  width: 33%;
+  margin-left: 40px;
+}
+.info .container .all-divs-2.action-needed .action-head-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+.info .container .all-divs-2.action-needed .action-head-div .needed-div p {
+  color: #A1A5BE;
+}
+.info .container .all-divs-2.action-needed .action-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.info .container .all-divs-2.action-needed .action-main-div img {
+  border: none !important;
+}
+.info .container .all-divs-2.action-needed .action-main-div p {
+  margin-top: 50px;
+  text-align: center;
+}
+.info .container .all-divs-2.action-needed .action-main-div p span {
+  color: red;
+  margin-right: 10px;
+}
+.info .container .all-divs-2.action-needed .action-main-div button {
+  margin-top: 30px;
+  color: white;
+  background-color: #0095E8;
+  padding: 15px 110px;
+  border: none;
+  border-radius: 5%;
+}
+.info .container .all-divs-2.trends {
+  width: 33%;
+  margin-left: 40px;
+}
+.info .container .all-divs-2.trends .trends-head-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+.info .container .all-divs-2.trends .trends-head-div .trends-div p {
+  color: #A1A5BE;
+}
+.info .container .all-divs-2.trends .trends-main-div .img-trends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-author .icon {
+  border-radius: 15%;
+  padding: 5px 10px;
+  background-color: #F0F2F5;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-author .mid-para {
+  margin-left: -50px;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-author .mid-para .main {
+  color: #3F427A;
+  font-size: 17px;
+  font-weight: bold;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-author .mid-para .second {
+  font-size: 12px;
+  color: #A1B1D4;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-author .dollars {
+  border-radius: 10%;
+  padding: 5px 8px;
+  background-color: #F0F2F5;
+  color: #A1B1D4;
+  font-size: 12px;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-sale {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-sale .icon {
+  border-radius: 15%;
+  padding: 5px 13px;
+  background-color: #F0F2F5;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-sale .mid-para {
+  margin-left: -105px;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-sale .mid-para .main {
+  color: #3F427A;
+  font-size: 17px;
+  font-weight: bold;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-sale .mid-para .second {
+  font-size: 12px;
+  color: #A1B1D4;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-sale .dollars {
+  border-radius: 10%;
+  padding: 5px 8px;
+  background-color: #F0F2F5;
+  color: #A1B1D4;
+  font-size: 12px;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-engagement {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-engagement .icon {
+  border-radius: 15%;
+  padding: 5px 10px;
+  background-color: #F0F2F5;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-engagement .mid-para {
+  margin-left: -50px;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-engagement .mid-para .main {
+  color: #3F427A;
+  font-size: 17px;
+  font-weight: bold;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-engagement .mid-para .second {
+  font-size: 12px;
+  color: #A1B1D4;
+}
+.info .container .all-divs-2.trends .trends-main-div .trends-second-div .top-engagement .dollars {
+  border-radius: 10%;
+  padding: 5px 8px;
+  background-color: #F0F2F5;
+  color: #A1B1D4;
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */

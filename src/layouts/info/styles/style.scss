@@ -1,0 +1,268 @@
+.info{
+    background-color: #F3F6F8;
+   .container{
+    margin: 0 auto;
+    max-width: 1290px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .all-divs{
+        width: 33%;
+        height: 163px;
+        border-radius: 5%;
+        position: relative;
+        color: white;
+        padding: 2rem 2.25rem;
+        display: flex;
+        flex-direction: column;
+
+        .info-icons{
+
+        }
+        .all-h2s{
+            margin-top: 10px;
+        }
+        .all-ps{
+            margin-top: 10px;
+        }
+    }
+    .all-divs.shopping-cart{
+        background-color: #F1416C;
+    }
+    .all-divs.appartment{
+        margin-left: 40px;
+        background-color: #009EF7;
+    }
+    .all-divs.sales-stats{
+        margin-left: 40px;
+        background-color: #50CD89;
+    }
+    .all-divs-2{
+        height: 486px;
+        border-radius: 5%;
+        position: relative;
+        background-color: white;
+        margin-top: -20px;
+    }
+    .all-divs-2.sales-overview{
+        width: 33%;
+        .sales-head-div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+            .overview-div{
+                p{
+                    color: #A1A5BE;
+                }
+            }
+        }
+        .sales-main-div{
+            padding: 20px 30px;
+            display: flex;
+            flex-wrap: wrap;
+            .inner-divs{
+                width: 50%;
+                .main-p{
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: #A1A5BE;
+                }
+                .second-p{
+                   font-size: 20px; 
+                }
+            }
+            .inner-divs.average-sale{
+              
+            }
+            .inner-divs.commission{
+               
+            }
+            .inner-divs.annual-tax{
+               margin-top: 30px;
+            }
+            .inner-divs.income{
+                margin-top: 30px;
+            }
+        }
+        .sale-foot-div{
+            img{
+                width: 100%;
+                margin-top: 90px;
+            }
+        }
+    }
+    .all-divs-2.action-needed{
+        width: 33%;
+        margin-left: 40px;
+        .action-head-div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+            .needed-div{
+                p{
+                    color: #A1A5BE;
+                }
+            }
+        }
+        .action-main-div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px;
+            img{
+              border: none !important;
+            }
+            p{
+                margin-top: 50px;
+                text-align: center;
+                
+                span{
+                    color: red;
+                    margin-right: 10px;
+                }
+            }
+            button{
+                margin-top: 30px;
+                color: white;
+                background-color: #0095E8;
+                padding: 15px 110px;
+                border: none;
+                border-radius: 5%;
+            }
+        }
+    }
+    .all-divs-2.trends{
+        width: 33%;
+        margin-left: 40px;
+        .trends-head-div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+            .trends-div{
+                p{
+                    color: #A1A5BE;
+                }
+            }
+        }
+        .trends-main-div{
+            
+            .img-trends{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                img{
+              
+                }
+            }
+           
+            .trends-second-div{
+                display: flex;
+               flex-direction: column;
+                margin-top: 20px;
+                padding: 0 20px;
+                .top-author{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .icon{
+                        border-radius: 15%;
+                        padding: 5px 10px;
+                        background-color: #F0F2F5;
+                    }
+                    .mid-para{
+                        margin-left: -50px;
+                        .main{
+                            color: #3F427A;
+                            font-size: 17px;
+                            font-weight: bold;
+                        }
+                        .second{
+                            font-size: 12px;
+                            color: #A1B1D4;
+                        }
+
+                    }
+                    .dollars{
+                        border-radius: 10%;
+                        padding: 5px 8px;
+                        background-color: #F0F2F5;
+                        color: #A1B1D4;
+                        font-size: 12px;
+                    }
+                }
+                .top-sale{
+                    margin-top: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .icon{
+                        border-radius: 15%;
+                        padding: 5px 13px;
+                        background-color: #F0F2F5;
+                    }
+                    .mid-para{
+                        margin-left: -105px;
+                        .main{
+                            color: #3F427A;
+                            font-size: 17px;
+                            font-weight: bold;
+                        }
+                        .second{
+                            font-size: 12px;
+                            color: #A1B1D4;
+                        }
+
+                    }
+                    .dollars{
+                        border-radius: 10%;
+                        padding: 5px 8px;
+                        background-color: #F0F2F5;
+                        color: #A1B1D4;
+                        font-size: 12px;
+                    }
+                }
+                .top-engagement{
+                    margin-top: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .icon{
+                        border-radius: 15%;
+                        padding: 5px 10px;
+                        background-color: #F0F2F5;
+                    }
+                    .mid-para{
+                        margin-left: -50px;
+                        .main{
+                            
+                            color: #3F427A;
+                            font-size: 17px;
+                            font-weight: bold;
+                        }
+                        .second{
+                            font-size: 12px;
+                            color: #A1B1D4;
+                        }
+
+                    }
+                    .dollars{
+                        border-radius: 10%;
+                        padding: 5px 8px;
+                        background-color: #F0F2F5;
+                        color: #A1B1D4;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+   }
+
+}

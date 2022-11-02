@@ -1,0 +1,104 @@
+.navbar {
+    width: 89.5%;
+    height: 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #EFF2F5;
+    position: relative;
+    padding-left: 30px;
+    left: 140px;
+    .container{
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+
+        .navDiv-1{
+            display: flex;
+            align-items: center;
+            
+            a{
+                color: #886278;
+                text-decoration: none;
+                margin: 10px;
+                font-weight: bold;
+            }
+        }
+        .navDiv-2{
+           display: flex;
+           align-items: center;
+           .icon-div{
+            margin-right: 30px;
+           }
+           .nav-img{
+            img{
+                border-radius: 15%;
+                margin-right: 30px;
+            }
+           }
+        }
+      
+    }
+   
+}
+.navbar2{
+    width: 89.5%;
+    height: 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #EFF2F5;
+    position: relative;
+    left: 140px;
+    padding-left: 30px;
+    top: 10%;
+    .container{
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .div1{
+            display: flex;
+           
+            ul{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+              
+                li{
+                    
+                    list-style: none;
+                    text-decoration: none;
+                    margin: 10px;
+                }
+                li.li-1{
+                    font-weight: bold;
+                }
+                li.li-2{
+                    border-left: 1px solid #EFF2F5;
+                    color: #A9ACBD;
+                    padding-left: 10px;
+                }
+            }
+        }
+        .div2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            ul{
+                display: flex;
+            justify-content: center;
+            align-items: center;
+                li{
+                    list-style: none;
+                    text-decoration: none;
+                    margin-right: 30px;
+                    color: #A5A9BA;
+                }
+            
+            }
+        }
+    }
+   
+}
