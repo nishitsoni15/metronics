@@ -6,8 +6,8 @@ import { Compititors, Info } from "../../layouts";
 const Dashboard = () => {
     return (
         <>
-            <Navbar />
             <Sidebar />
+            <Navbar />
             <Compititors />
             <Info />
         </>

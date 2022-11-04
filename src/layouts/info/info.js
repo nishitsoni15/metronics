@@ -1,38 +1,81 @@
 import React from "react";
 import './styles/style.css';
-import { MdShoppingBasket } from "react-icons/md";
+import { MdHeight, MdShoppingBasket } from "react-icons/md";
 import { RiBuilding4Fill } from "react-icons/ri";
 import { ImStatsBars2 } from "react-icons/im";
 import { IconContext } from 'react-icons';
 import { AiOutlineAppstore } from "react-icons/ai";
+import { Chart, Tooltip, Title, ArcElement, Legend } from 'chart.js';
+import { Pie } from 'react-chartjs-2';
+
+Chart.register(
+    Tooltip, Title, ArcElement, Legend
+);
 
 const Info = () => {
+
+    const array = [
+        {
+            id: 1,
+            className: 'all-divs shopping-cart',
+            icon: <MdShoppingBasket />,
+            name: 'Shopping Cart',
+            descp: 'Lands, Houses, Ranchos, Farms'
+        },
+        {
+            id: 2,
+            className: 'all-divs appartment',
+            icon: <RiBuilding4Fill />,
+            name: 'Appartments',
+            descp: 'Flats, Shared Rooms, Duplex'
+        },
+        {
+            id: 3,
+            className: 'all-divs sales-stats',
+            icon: <ImStatsBars2 />,
+            name: 'Sales Stats',
+            descp: '50% Increased for FY20'
+        }
+    ]
+
+    const data = {
+        datasets: [{
+            data: [10, 20, 30],
+            backgroundColor: [
+                'Red',
+                'Yellow',
+                'Blue'
+            ]
+        }],
+
+        // These labels appear in the legend and in the tooltips when hovering different arcs
+        labels: [
+            'Red',
+            'Yellow',
+            'Blue'
+        ]
+    };
+
     return (
         <>
             <section className="info">
                 <div className="container">
-                    <div className="all-divs shopping-cart">
-                        <IconContext.Provider value={{ size: "30px" }}>
-                            <div className="info-icons"><MdShoppingBasket /></div>
-                        </IconContext.Provider>
+                    {
+                        array.map((item) => {
+                            return (
+                                <div className={item.className}>
+                                    <IconContext.Provider value={{ size: "30px" }}>
+                                        <div className="info-icons">{item.icon}</div>
+                                    </IconContext.Provider>
 
-                        <h2 className="all-h2s">Shopping Cart</h2>
-                        <p className="all-ps">Lands, Houses, Ranchos, Farms</p>
-                    </div>
-                    <div className="all-divs appartment">
-                        <IconContext.Provider value={{ size: "30px" }}>
-                            <div className="info-icons"><RiBuilding4Fill /></div>
-                        </IconContext.Provider>
-                        <h2 className="all-h2s">Appartments</h2>
-                        <p className="all-ps">Lands, Houses, Ranchos, Farms</p>
-                    </div>
-                    <div className="all-divs sales-stats">
-                        <IconContext.Provider value={{ size: "30px" }}>
-                            <div className="info-icons"><ImStatsBars2 /></div>
-                        </IconContext.Provider>
-                        <h2 className="all-h2s">Sales Stats</h2>
-                        <p className="all-ps">Lands, Houses, Ranchos, Farms</p>
-                    </div>
+                                    <h2 className="all-h2s">{item.name}</h2>
+                                    <p className="all-ps">{item.descp}</p>
+                                </div>
+                            )
+                        })
+                    }
+
+
                 </div>
 
                 <div className="container">
@@ -83,7 +126,12 @@ const Info = () => {
                             </div>
                         </div>
                         <div className="action-main-div">
-                            <img src="assets/ProgressCircle-04.png" alt="progress-img" width={180} />
+                            <div style={{ width: "50%" }}>
+                                <Pie data={data} />
+                            </div>
+
+
+
                             <p>
                                 <span>Notes:</span>Current sprint requires stakeholders
                                 to approve newly amended policies

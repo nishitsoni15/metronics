@@ -2,16 +2,16 @@
     background-color: #F3F6F8;
    .container{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1170px;
     display: flex;
     justify-content: space-between;
-    padding-left: 98px;
+    padding-left: 70px;
     padding-top: 30px;
     padding-bottom: 30px;
     .all-divs{
         width: 33%;
         height: 163px;
-        border-radius: 5%;
+        border-radius: 5px;
         position: relative;
         color: white;
         padding: 2rem 2.25rem;
@@ -41,7 +41,7 @@
     }
     .all-divs-2{
         height: 486px;
-        border-radius: 5%;
+        border-radius: 5px;
         position: relative;
         background-color: white;
         margin-top: -20px;

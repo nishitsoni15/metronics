@@ -19,6 +19,7 @@ const Compititors = () => {
                     <div></div>
                 </div>
             </section> */}
+
         </>
     )
 }
