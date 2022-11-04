@@ -1,16 +1,14 @@
+import React from 'react';
 import './App.css';
-import { Navbar } from './components/navbar/index';
-import { Sidebar } from './components/sidebar/index';
-import { Compititors } from './layouts/compititors/index';
-import { Info } from './layouts/info/index';
+import Router from './Router';
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Sidebar />
-      <Info />
-      <Compititors />
+
+      <Router />
+
     </div>
   );
 }

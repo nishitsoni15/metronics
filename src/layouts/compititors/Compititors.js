@@ -1,11 +1,11 @@
 import React from "react";
-import { AiOutlineAppstore } from "react-icons/ai";
+// import { AiOutlineAppstore } from "react-icons/ai";
 
 const Compititors = () => {
 
     return (
         <>
-            <section className="compititors">
+            {/* <section className="compititors">
                 <div className="container">
                     <div className="comp-head">
                         <div className="head-text">
@@ -18,7 +18,7 @@ const Compititors = () => {
                     </div>
                     <div></div>
                 </div>
-            </section>
+            </section> */}
         </>
     )
 }

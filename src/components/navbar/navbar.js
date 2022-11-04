@@ -6,6 +6,7 @@ import { AiOutlineAppstore } from "react-icons/ai";
 import { MdOutlineLightMode } from "react-icons/md";
 import { IconContext } from 'react-icons';
 import { BsFileEarmarkPlus } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -13,10 +14,10 @@ const Navbar = () => {
             <nav className='navbar'>
                 <div className='container'>
                     <div className='navDiv-1'>
-                        <a href='/dashboard'>Dashboard</a>
-                        <a href='/pages'>Pages</a>
-                        <a href='/apps'>Apps</a>
-                        <a href='/help'>Help</a>
+                        <Link to='/'>Dashboard</Link>
+                        <Link>Pages</Link>
+                        <Link>Apps</Link>
+                        <Link to='/help'>Help</Link>
                     </div>
                     <div className='navDiv-2'>
                         <IconContext.Provider value={{ color: "#A1A5B7", size: "30px" }}>
